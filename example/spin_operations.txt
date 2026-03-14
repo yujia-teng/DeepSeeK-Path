@@ -1,6 +1,13 @@
-Total Symmetry Operations: 12
+========================================
+SPIN SYMMETRY LOG
 ========================================
 
+Non-Magnetic Label: P6_3mc (186)
+Spin-Only Group Type: COLLINEAR(axis=[0. 0. 1.])
+Magnetic Space Group Label: Not found (spglib too old?)
+
+Total Symmetry Operations: 12
+----------------------------------------
 Operation 1:
   Rotation:
 [[1 0 0]
