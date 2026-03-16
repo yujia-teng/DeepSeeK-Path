@@ -43,7 +43,7 @@ class KPointsModifier:
                     parts = line.split()
                     if len(parts) >= 4:  # kx, ky, kz, label
                         kx, ky, kz = float(parts[0]), float(parts[1]), float(parts[2])
-                        label = parts[3] if len(parts) > 3 else ""
+                        label = parts[-1] if len(parts) > 3 else ""
                         self.kpoints_data.append([kx, ky, kz, label])
             
             print(f"Successfully read {len(self.kpoints_data)} k-points from {filename}")
