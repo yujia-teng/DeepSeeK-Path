@@ -181,8 +181,9 @@ def seekpath_to_sc_type(sp_result):
         return 'ORCI', conv_params
 
     # --- Base-centered orthorhombic (seekpath variants: oS, oC, oA, oB) ---
+    # seekpath ORCC convention: a > b  (ζ = (1 + b²/a²)/4)
     if bravais in ('oS', 'oC', 'oA', 'oB'):
-        if a > b: a, b = b, a
+        if a < b: a, b = b, a
         conv_params['a'], conv_params['b'] = a, b
         return 'ORCC', conv_params
 
