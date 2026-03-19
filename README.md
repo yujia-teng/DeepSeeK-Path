@@ -276,4 +276,24 @@ pip install -r requirements.txt
 ## Note
 Doesn't work for triclinic system at the moment.
 
+## Please cite
+Bibtex:
+```
+@article{v3fg-6smc,
+  title = {$G$-type antiferromagnetic ${\mathrm{BiFeO}}_{3}$ is a multiferroic $g$-wave altermagnet},
+  author = {Urru, Andrea and Seleznev, Daniel and Teng, Yujia and Park, Se Young and Reyes-Lillo, Sebastian E. and Rabe, Karin M.},
+  journal = {Phys. Rev. B},
+  volume = {112},
+  issue = {10},
+  pages = {104411},
+  numpages = {14},
+  year = {2025},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/v3fg-6smc},
+  url = {https://link.aps.org/doi/10.1103/v3fg-6smc}
+}
+
+```
+
 
