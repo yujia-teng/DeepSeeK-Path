@@ -1,4 +1,4 @@
-# DeepSeeK-Path
+# AlterSeeK-Path
 
 A tool for generating general k-point paths for band structure calculations of altermagnet.
 
